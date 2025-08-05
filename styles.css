@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  background: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+.tweet {
+  background: white;
+  border-left: 4px solid #1e2a38;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.tweet h2 {
+  margin-top: 0;
+}
+.hashtags {
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+}
